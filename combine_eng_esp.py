@@ -41,9 +41,8 @@ def handle_files(eng_files, esp_files, export_dir):
 
 
 def sanitize_value(w):
-    x = str(w).encode('ascii', 'replace')
-    y = str(x).decode('utf-8')
-    return y
+    x = str(w).encode('ascii', 'replace').
+    return x
 
 
 def combine_files(eng_file, esp_file):
